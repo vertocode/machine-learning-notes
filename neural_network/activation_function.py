@@ -20,3 +20,5 @@ model = Sequential([
     Dense(units=15, activation="relu"), # hidden layer
     Dense(units=1, activation="sigmoid") # output layer
 ])
+
+# Also take a look in the file multiclass_classification.py to see how to use the softmax activation function.
