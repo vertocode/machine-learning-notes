@@ -7,6 +7,16 @@ dlc = dict(dlblue = '#0096ff', dlorange = '#FF9300', dldarkred='#C00000', dlmage
 dlblue = '#0096ff'; dlorange = '#FF9300'; dldarkred='#C00000'; dlmagenta='#FF40FF'; dlpurple='#7030A0'; dldarkblue =  '#0D5BDC'
 dlcolors = [dlblue, dlorange, dldarkred, dlmagenta, dlpurple]
 
+def plot_train_cv_test(x_train, y_train, x_cv, y_cv, x_test, y_test, title):
+    plt.scatter(x_train, y_train, marker='x', c='r', label='training');
+    plt.scatter(x_cv, y_cv, marker='o', c='b', label='cross validation');
+    plt.scatter(x_test, y_test, marker='^', c='g', label='test');
+    plt.title("input vs. target")
+    plt.xlabel("x");
+    plt.ylabel("y");
+    plt.legend()
+    plt.show()
+
 def plt_prob_1d(ax,fwb):
     """ plots a decision boundary but include shading to indicate the probability """
     #setup useful ranges and common linspaces
