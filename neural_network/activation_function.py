@@ -13,8 +13,8 @@
 
 # model recommended example
 import tensorflow as tf
-from keras.layers import Dense
-from keras.models import Sequential
+from tf.keras.layers import Dense
+from tf.keras.models import Sequential
 model = Sequential([
     Dense(units=25, activation="relu"), # input, and hidden layer
     Dense(units=15, activation="relu"), # hidden layer

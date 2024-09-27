@@ -1,4 +1,5 @@
 import tensorflow as tf
+from tensorflow import keras
 from keras.layers import Dense
 from keras.models import Sequential
 from sklearn.datasets import make_blobs
