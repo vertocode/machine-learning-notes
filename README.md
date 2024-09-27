@@ -29,11 +29,11 @@ Folders:
 
 - Get more training examples
 - Try smaller sets of features
-- Try increasing λ
+- Try increasing λ (take a look in the [neural_network/regularization.py](./neural_network/regularization.py) for an example)
 
 
 #### Fix High Bias / Underfitting:
 
 - Try getting additional features
 - Try adding polynomial features (x1^2, x1x2, x2^2, ...)
-- Try decreasing λ
+- Try decreasing λ (take a look in the [neural_network/regularization.py](./neural_network/regularization.py) for an example)
