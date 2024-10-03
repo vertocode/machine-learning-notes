@@ -6,7 +6,7 @@ The specialization contains 3 courses and each folder in this repository corresp
 Folders:
 
 - [supervised_learning: Supervised Machine Learning: Regression and Classification](https://www.coursera.org/learn/machine-learning)
-- [neural_network: Advanced Learning Algorithms](https://www.coursera.org/learn/advanced-learning-algorithms/home)
+- [neural_network & decision_tree: Advanced Learning Algorithms](https://www.coursera.org/learn/advanced-learning-algorithms/home)
 - [unsupervised_learning: Unsupervised Learning, Recommenders, Reinforcement Learning](https://www.coursera.org/learn/unsupervised-learning-recommenders-reinforcement-learning)
 
 
