@@ -98,7 +98,6 @@ def run_kMeans(X, initial_centroids, max_iters=10, plot_progress=False):
     centroids = initial_centroids
     previous_centroids = centroids
     idx = np.zeros(m)
-    plt.figure(figsize=(8, 6))
 
     # Run K-Means
     for i in range(max_iters):

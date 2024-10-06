@@ -1,3 +1,4 @@
+import os
 import numpy as np
 import matplotlib.pyplot as plt
 from clutering_utils import *
@@ -26,6 +27,15 @@ X_recovered = centroids[idx, :]
 
 # Reshape image into proper dimensions
 X_recovered = np.reshape(X_recovered, original_img.shape)
+
+folder_path = 'compressed_images'
+# Create the folder if it doesn't exist
+if not os.path.exists(folder_path):
+    os.makedirs(folder_path)
+
+# Save the compressed image
+compressed_image_path = os.path.join(folder_path, f'compressed_{image_path.split("/")[-1]}')
+plt.imsave(compressed_image_path, X_recovered)
 
 # Display original image
 fig, ax = plt.subplots(1,2, figsize=(16,16))
